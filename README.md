@@ -1,6 +1,6 @@
 # Transcriber
 
-Automatic machine transcription with Whisper. Originally develepod for automatic transcription (and German translation) of the English lectures of Tragwerkslehre/Building Structures at TUM.
+Automatic machine transcription with [`Whisper`](https://openai.com/research/whisper). Originally develepod for automatic transcription (and German translation) of the English lectures of Tragwerkslehre/Building Structures at TUM.
 
 ## Installation Requirements
 
