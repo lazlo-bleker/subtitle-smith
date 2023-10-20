@@ -4,7 +4,7 @@ Automatic machine transcription with Whisper. Originally develepod for automatic
 
 ## Installation Requirements
 
-- Ensure you have [`ffmpeg`](https://www.ffmpeg.org/download.html) installed and added to your system PATH.
+- Ensure you have [`FFmpeg`](https://www.ffmpeg.org/download.html) installed and added to your system PATH.
 
 ## File Structure
 
