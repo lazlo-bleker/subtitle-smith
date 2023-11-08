@@ -1,6 +1,6 @@
 # SubtitleSmith
 
-Automatic subtitle generator in SRT format from any to any language with [`Whisper`](https://openai.com/research/whisper) and [`Helsinki-NLP`](https://huggingface.co/Helsinki-NLP). Originally developed for creating automatic German subtitles of the English lectures of Tragwerkslehre/Building Structures at TUM.
+Automatic subtitle generator in SRT format from any to any language with [`Whisper`](https://openai.com/research/whisper) and [`Helsinki-NLP`](https://huggingface.co/Helsinki-NLP).
 
 ## Installation Requirements
 
