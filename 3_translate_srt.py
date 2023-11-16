@@ -15,7 +15,7 @@ timestamps = english_text[1::4]
 text_chunks = english_text[2::4]
 english_text_marked = ''
 for i in range(len(text_chunks)):
-    english_text_marked += f' [T1M3STMP_{i + 1}] '
+    english_text_marked += f' (T1M3STMP_{i + 1}) '
     english_text_marked += text_chunks[i]
 english_text_marked = english_text_marked.split('. ')
 for i in range(len(english_text_marked) - 1):
@@ -31,7 +31,7 @@ german_text_marked = ''
 for i in range(len(translation)):
     german_text_marked += ' ' + translation[i]['translation_text']
 german_text_marked = german_text_marked[1:]
-german_text = german_text_marked.split('[T1M3STMP_')
+german_text = german_text_marked.split('(T1M3STMP_')
 german_text.pop(0)
 if len(german_text) == len(timestamps):
     print(f'OK: Number of text chunks ({len(german_text)}) == number of timestamps ({len(timestamps)})\n'

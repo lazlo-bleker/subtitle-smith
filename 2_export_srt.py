@@ -15,6 +15,8 @@ with open('transcript.json', 'r') as f:
 # Export SRT file
 chunk_id = 1
 chunks = transcript['chunks']
+with open('transcript.srt', 'w', encoding='utf-8') as f:
+    pass
 for i in range(len(chunks)):
     start_time = convert_time(chunks[i]['timestamp'][0])
     end_time = convert_time(chunks[i]['timestamp'][1])
